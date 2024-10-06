@@ -7,17 +7,17 @@
 		<key>Multiply.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Practice1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Switch.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>6</integer>
 		</dict>
 		<key>afsdfasdf.xcscheme_^#shared#^_</key>
 		<dict>
@@ -29,12 +29,12 @@
 		<key>header_test.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>if and loop.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>2</integer>
 		</dict>
 		<key>struct.xcscheme_^#shared#^_</key>
 		<dict>

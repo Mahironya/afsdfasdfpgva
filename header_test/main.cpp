@@ -8,7 +8,8 @@ using namespace std;
 int main(){
     InitPrint();
     Printstr("123123");
-    cout<<Multiply(1,2)<<endl;
+    int a = Multiply(2,4);
+    cout<<a<<endl;
 
     
 }

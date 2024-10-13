@@ -42,3 +42,34 @@
  - 2022-06-05：又增加一组 hack 数据
  
  */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int day_unhappy = 0; // 用来记录最不高兴的那天
+    int max_unhappy_hours = 0; // 用来记录最不高兴的程度（即超出8小时的时间）
+    
+    // 遍历每一天的日程
+    for (int i = 1; i <= 7; i++) {
+        int school_hours, extra_hours;
+        cin >> school_hours >> extra_hours;
+        
+        int total_hours = school_hours + extra_hours; // 每天总课程时间
+        
+        if (total_hours > 8) {
+            int unhappy_hours = total_hours - 8; // 计算超出的时间
+            
+            // 如果当前这天更不高兴，更新记录
+            if (unhappy_hours > max_unhappy_hours) {
+                max_unhappy_hours = unhappy_hours;
+                day_unhappy = i;
+            }
+        }
+    }
+    
+    // 如果max_unhappy_hours还是0，说明津津整周都很高兴，输出0
+    cout << day_unhappy << endl;
+    
+    return 0;
+}

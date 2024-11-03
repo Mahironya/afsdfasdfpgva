@@ -3,7 +3,7 @@ using namespace std;
 #define LOG(x) cout<<x<<endl
 int main(){
     int var = 8;
-    void* ptr = &var;
+    int* ptr = &var;
     cout<<ptr<<endl;
     LOG("asdfasdf");
     return 0;

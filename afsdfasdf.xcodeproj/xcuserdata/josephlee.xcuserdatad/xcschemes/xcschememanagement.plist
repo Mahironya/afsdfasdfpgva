@@ -24,10 +24,20 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>P1046.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>P1424.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>P1888.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
 		</dict>
 		<key>P1909.xcscheme_^#shared#^_</key>
 		<dict>
